@@ -1,0 +1,107 @@
+<html>
+<head><title>Dr Adnan Rashid</title>
+
+
+<link rel="stylesheet" href="Design1/Myproject.css">
+
+
+
+</head>
+
+<body>
+
+
+<div class="navigation">
+
+            <a href="http://save.seecs.nust.edu.pk/"><img src="Design1/logo.jpg" class="logo"></a>
+            <div class="menu">
+                <ul>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">Research</a></li>
+                <li><a href="#services" class="menu-btn">Publications</a></li>
+                <li><a href="#skills" class="menu-btn">People</a></li>
+                <li><a href="#teams" class="menu-btn">Collaborations</a></li>
+                <li><a href="#contact" class="menu-btn">Links</a></li>
+                <li><a href="#contact" class="menu-btn">Downloads</a></li>
+                <li><a href="#contact" class="menu-btn">Alumni</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                </ul>
+            </div>
+</div>
+<div class="about" >
+<h3 style="font-size:21px; color:#006699;">Formal Reasoning about Synthetic Biology using Higher-order-logic Theorem Proving</h3>
+<br><br>
+<div class="content">
+<h4 style="margin-bottom:10px; margin-left:-1090px; font-size:19.5px; color:#006699;">Abstract</h4>
+<p style="font-size:16px; letter-spacing:0.1px; margin-bottom:20px; line-height: 1.40;
+	font-family: Segoe UI;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	">Synthetic Biology is an interdisciplinary field that uses well-established engineering principles,
+ ranging from electrical, control and computer systems, for analyzing the biological systems,
+ such as biological circuits, enzymes, pathways and controllers. Controllers play a pivotal role in 
+ regulating different components and modules of a biological system thus ensure its smooth functionality.
+ They are commonly used in the genetic circuits and other biological organisms. Traditionally, these biological systems, 
+ i.e., the genetic circuits and their associated controllers are analyzed using paper-and-pencil proofs and computer-based 
+ simulations methods. However, these techniques cannot provide accurate results due to their inherent limitations such as human
+ error-proneness, round-off errors and the unverified algorithms present in the core of the tools, providing such analyses. We propose to use higher-order-logic theorem
+ proving as a complementary technique for analyzing these systems and thus overcome the above-mentioned issues. It is based on developing a mathematical model of the
+ underlying system based on an appropriate logic and analyzing it using deductive reasoning. The involvement of the mathematics and the logical reasoning in this method ensures
+ the accuracy of the analysis. In this paper, we propose a higher-order-logic theorem proving based framework to formally reason about the genetic circuits and their associated 
+ controllers used in synthetic biology. The main idea is to, first, model the continuous dynamics of the genetic circuits and their associated controllers using differential 
+ equations. These dynamics are generally obtained from the reaction-based models of these systems and thus requires the notion of reaction kinetics. The next step is to obtain
+ the systems’ transfer function from their corresponding block diagram representations. Finally, the transfer function based analysis of these differential equation based models 
+ is performed using the Laplace transform, which is further used for the stability analysis of these systems. To illustrate the practical utilization of our proposed framework, 
+ we formally analyze the genetic circuits of activated and repressed expressions and autoactivation of protein, and phase lag and lead controllers.</p>
+
+
+<h4 style="margin-bottom:10px; margin-left:-1055px; font-size:19.5px; color:#006699;">Proof Script</h4>
+                <li><a style="color:#0575e6; text-decoration:none; margin-left:-1055px;" href="https://www.dropbox.com/s/anwpsjxv3367g0a/hollight_sources.zip?dl=0">Formalization</a></li>            
+<h4 style="margin-top:10px; margin-bottom:10px; margin-left:-982px; font-size:19.5px; color:#006699;">Contact Information</h4>	
+<p style="font-size:16px; letter-spacing:0.1px; margin-bottom:20px; line-height: 1.40;
+	font-family: Segoe UI;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	">Adnan Rashid is a Research Associate in the System Analysis & Verification (SAVe) Lab of NUST-SEECS, under the supervision of Dr. Osman Hasan.
+
+</p>
+<div style="color:#0575e6; cursor:pointer; margin-left:-1030px;margin-top:-30px; margin-bottom:5px;">
+<a>Adnan Rashid</a>						
+							
+	</div>						
+	
+<div style="color:#0575e6; cursor:pointer; margin-left:-930px;">
+<a>adnan.rashid@seecs.edu.pk</a>						
+							
+	</div>						
+							
+
+</div>
+</div>
+
+
+
+
+<div class="footer">
+      <center><p style=" padding:20px;" class="lastpara">Copyright © 2015 - System Analysis and Verification (SAVe)<br>
+      Developed by Wajih ul Hassan</p></center>
+	</div>
+<script>
+
+
+var nav=document.getElementById("nav2");
+var btns=nav.getElementsByClassName("anchor");
+
+for(var i=0;i<btns.length;i++){
+	btns[i].addEventListener('click',function(){
+		var current=document.getElementsByClassName("active");
+		current[0].className=current[0].className.replace(" active");
+		this.className+=" active";
+	})
+}</script>
+</body>
+</html>
